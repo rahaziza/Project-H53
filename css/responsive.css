@@ -1,0 +1,17 @@
+@media all and (max-width: 1000px) {
+  .service {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+.contact-wrapper {
+    width:100%;
+}
+  .contacts {
+    padding-right: 200px;
+  }
+
+@media all and (max-width: 670px) {
+  .service {
+    width: 100%;
+  }
+}

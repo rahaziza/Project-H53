@@ -1,0 +1,335 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Calibri";
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  max-width: 1170px;;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  color: white;
+  text-align: left;
+}
+
+.jumbo-text {
+  float: left;
+}
+
+.proud {
+  float: right;
+  position: relative;
+  animation-name: proud-animation;
+  animation-duration: 2s;
+}
+
+@keyframes proud-animation {
+  0%   {right:0px; top:0px;opacity: 0;}
+  10%  {right:0px; top:0px;opacity: 0.1;}
+  20%  {right:0px; top:0px;opacity: 0.2;}
+  30%  {right:0px; top:0px;opacity: 0.3;}
+  40%  {right:0px; top:0px;opacity: 0.4;}
+  50%  {right:0px; top:0px;opacity: 0.5;}
+  60%  {right:0px; top:0px;opacity: 0.6;}
+  70%  {right:0px; top:0px;opacity: 0.7;}
+  80%  {right:0px; top:0px;opacity: 0.8;}
+  90%  {right:0px; top:0px;opacity: 0.9;}
+  100%  {right:0px; top:0px;opacity: 1.0;}
+}
+
+.proud img {
+  width: 400px;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  margin-left: 30px;
+  color: black;
+  margin-bottom: 2px;
+}
+
+.top-wrapper p {
+  margin-left: 30px;
+  letter-spacing: 5px;
+  color: black
+}
+
+.btn-wrapper {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+
+.daftar {
+  background-color: #4169E1;
+  margin-right: 10px;
+  color: white;
+  font-family: Arial;
+  margin-left: 30px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: grey;
+  color: black;
+}
+
+
+header {
+  height: 75px;
+  width: 100%;
+  background-color: white;
+  opacity: 0.9;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 130px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+  margin-left: 30px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-family: Arial;
+}
+
+.header-right a:hover {
+  background-color: grey;
+}
+
+.tentang {
+  padding: 150px 0 100px 30px;
+}
+
+.tentang-dts {
+  color: black;
+}
+
+.gambar-tentang {
+  float: left;
+  padding: 20px 20px;
+  animation-name: proud-animation;
+}
+
+.tentang-dts p{
+  letter-spacing: normal;
+  padding-left: 0;
+}
+
+.tentang-dts h2 {
+  padding-left: 30px;
+}
+
+.tentang-dts {
+  float: left;
+  width: 500px;
+  text-align: left;
+  padding: 40px 30px;
+}
+
+.partner-dts {
+  text-align: center;
+  padding: 100px 30px 20px 30px;
+  color: black;
+}
+
+.clear {
+  clear: left;
+}
+
+.daftar-partner {
+  display: flex;
+  justify-content: center;
+}
+
+.partnership {
+  text-align: center;
+  position: relative;
+  width: fit-content;
+}
+
+/* .gambar-partner {
+  max-width: 200px;
+} */
+
+.brand {
+  position: absolute;
+  top: 200px;
+  left: 68px;
+}
+
+.btn-detail {
+  padding: 10px 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.btn-detail:hover {
+  background-color: #4169E1;
+}
+
+
+.service-wrapper {
+  margin-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.judul {
+  padding-top: 40px;
+  margin-top: 0;
+}
+
+.judul h3 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.services {
+  padding-top: 20px;
+}
+.service {
+  float: left;
+  width: 20%;
+}
+
+.service img {
+  width:40px;
+}
+
+.ket-contents {
+  width: 90%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.contact-wrapper {
+  height: 400px;
+  box-shadow: 2px 0 #1a7940;
+  padding-left: 5%;
+  background-image: url(https://i.ibb.co/8c4vxxj/background-kontak.png);
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.contacts {
+  padding-right: 550px;
+}
+
+.alamat {
+  font-size: 17px;
+  color: #335d86;
+  margin-bottom: 10px;
+  padding: 40px 0 5px 0;
+  position: relative;
+}
+
+.alamat::after {
+  background-color: #335d86;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  position: absolute;
+  width: 40px;
+}
+
+.jalan {
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 0;
+  color: #335d86;
+  opacity: 0.9;
+}
+
+.jalan:hover {
+  text-decoration: underline;
+}
+
+.sosmed-wrapper {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.sosmed {
+ margin: 20px 0;
+ padding-bottom: 20px;
+}
+
+.sosmed:hover {
+  opacity: 0.8;
+}
+
+.fab {
+  color: #0e2b4a;
+  width: 50px;
+  margin: 0 auto;
+  left: 50%;
+}
+.facebook {
+  margin-right: 30px;
+}
+
+.twitter {
+  margin-right: 30px;
+}
+
+.instagram {
+margin-right: 30px;
+}
+
+footer p {
+  color: #838383;
+  font-size: 12px;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
